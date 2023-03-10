@@ -1,0 +1,19 @@
+name: "Blog"
+port: 8080
+start_time: "2022-02-02"
+
+auth:
+  jwt_expire: 8760
+
+mysql:
+  host: localhost
+  port: 3306
+  user: "root"
+  password: "123456"
+  dbname: "blog_db"
+
+redis:
+  host: localhost
+  port: 6379
+  password: ""
+  db: 0
